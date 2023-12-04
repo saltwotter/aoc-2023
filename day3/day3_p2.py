@@ -41,7 +41,7 @@ def gear_power(gear: tuple[int, int], all_stars: list[tuple[int, int], int]):
     return prod(numbers)
 
 
-with open("day3/test.txt", mode="r") as f:
+with open("day3/input.txt", mode="r") as f:
     lines = f.read().splitlines()
     all_numbers = get_all_numbers(lines)
 
